@@ -1,116 +1,133 @@
-🏥 Insurance Analytics Dashboard | Power BI
+# 🏥 Insurance Analytics Dashboard | Power BI
 
-📌 Project Overview
+## 📌 Overview
 
-This Power BI dashboard provides a comprehensive analysis of insurance business performance by tracking customer growth, revenue trends, policy distribution, and sales channel effectiveness. The report helps stakeholders make data-driven decisions through interactive visualizations and key performance indicators (KPIs).
+This Power BI project analyzes insurance business performance by tracking revenue, customers, policies, sales channels, and customer demographics. It helps in understanding business growth and making data-driven decisions using interactive dashboards.
 
-🎯 Business Objectives
-Monitor total customers and total revenue.
-Track Month-over-Month (MoM) growth in customers and revenue.
-Analyze policy performance across different categories.
-Understand customer demographics and age-group distribution.
-Evaluate sales performance across various sales modes.
-Identify trends and opportunities to improve business performance.
-📊 Key Performance Indicators (KPIs)
-Total Customers
-Total Revenue
-Total Policies
-Revenue Growth %
-Customer Growth %
-Average Revenue per Customer
-📄 Dashboard Pages
-🏠 Home Page
+---
 
-Provides an executive summary of the business with:
+## 🎯 Business Requirements
 
-Total Revenue
-Total Customers
-Growth Metrics
-Quick Business Insights
-📈 General View Dashboard
+- Track total customers and total revenue
+- Monitor revenue and customer growth over time
+- Analyze sales channel performance
+- Understand customer distribution by age group
+- Evaluate policy performance
+- Identify key business trends and insights
 
-Focuses on overall business performance:
+---
 
-Revenue Trends
-Customer Trends
-Monthly Performance Analysis
-💰 Sales Mode Analysis
+## 📄 Dashboard Design Process (Mockup)
 
-Analyzes business generated through different channels:
+Before building the final dashboard, a mock dashboard was created to plan layout, KPIs, and user experience.
 
-Online
-Offline
-Agent
-Direct Sales
+📌 The mockup helped in defining:
+- KPI placement
+- Visual structure
+- Navigation flow
+- Dashboard storytelling
 
-Insights:
+📄 **Mock Dashboard (PDF):**  
+👉 [View Mock Dashboard](./Shield_Insurance_mock_up.pdf)
 
-Best-performing sales channel
-Revenue contribution by sales mode
-Customer acquisition patterns
-👥 Age Group Analysis
+---
 
-Analyzes customer demographics by age group.
+## 📊 Final Dashboard
 
-Insights:
+The final Power BI dashboard was developed based on the mock design and enhanced with DAX measures and interactive visuals.
 
-Most profitable customer segment
-Revenue contribution by age category
-Customer distribution analysis
-❓ Help Report
+### 🖼 Dashboard Screenshots
 
-Contains:
+#### Home Page
+![Home Dashboard](HP.JPG)
 
-Dashboard Navigation Guide
-KPI Definitions
-Report Usage Instructions
-🗂 Data Model
+#### Main Dashboard
+![Main Dashboard](MP.JPG)
 
-The report follows a Star Schema approach for efficient data modeling.
+#### Sales Mode Analysis
+![Sales Mode](SP.JPG)
 
-Fact Table
-Insurance Data
-Dimension Tables
-Customer
-Date
-Policy
-Sales Mode
-Age Group
-🧮 DAX Concepts Used
-Measures
-Calculated Columns
-CALCULATE()
-ALL()
-FILTER()
-DIVIDE()
+#### Age Group Analysis
+![Age Group](AP.JPG)
 
-📌 Key Insights Generated
-Revenue and customer growth trends over time.
-Top-performing sales channels.
-Customer demographic analysis.
-Policy distribution across customer segments.
-Business performance monitoring through KPIs.
+---
 
-🛠 Tools & Technologies
-Power BI Desktop
-Power Query
-DAX (Data Analysis Expressions)
-Data Modeling
-Data Visualization
-📷 Dashboard Preview
+## 🚀 Live Dashboard
 
-Add screenshots of your dashboard here.
+👉 **Explore Interactive Report**
 
-🚀 Skills Demonstrated
-Data Cleaning & Transformation
-Data Modeling
-DAX Development
-KPI Design
-Interactive Dashboard Design
-Business Intelligence Reporting
-👩‍💻 Author
+🔗 [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYmFmMzM2MmQtZWE2Ni00ZGMwLWE4MmEtOWY4YzAxODVkNTQ4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
-Safina Begum
+---
+
+## 📊 Key KPIs
+
+- Total Revenue
+- Total Customers
+- Total Policies
+- Revenue Growth %
+- Customer Growth %
+
+
+---
+
+## 🗂 Data Model
+
+The project follows a **Star Schema** design.
+
+### Fact Table
+- fact_premiumn
+- fact_settlements
+
+### Dimension Tables
+- dim_Customer
+- dim_Date
+- dim_Policy
+
+
+---
+
+## 🧮 DAX Concepts Used
+
+- CALCULATE()
+- FILTER()
+- ALL()
+- DIVIDE()
+
+
+---
+
+## 📌 Key Insights
+
+- Revenue and customer growth trends over time
+- Best performing sales channels
+- Customer distribution by age group
+- Policy performance analysis
+- Business performance tracking through KPIs
+
+---
+
+## 🛠 Tools Used
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Data Visualization
+
+---
+
+
+
+## 👩‍💻 Author
+
+**Safina Begum**  
 Power BI Developer | Data Analyst Enthusiast
 
-⭐ If you found this project useful, consider giving it a star on GitHub!
+
+🔗 GitHub: [Dudekula-Safina-Begum](https://github.com/Dudekula-Safina-Begum)
+
+🔗 LinedIn: [Dudekula-Safina-Begum](https://www.linkedin.com/in/dudekula-safinabegum/)
+---
+
+⭐ If you like this project, don't forget to star the repository!
