@@ -56,7 +56,8 @@ The final Power BI dashboard was developed based on the mock design and enhanced
 
 👉 **Explore Interactive Report**
 
-🔗 [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYmFmMzM2MmQtZWE2Ni00ZGMwLWE4MmEtOWY4YzAxODVkNTQ4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+## 🔗 Live Dashboard
+[Click here to view dashboard](https://app.powerbi.com/view?r=eyJrIjoiNWVkMmU3YmYtYmI1Ni00YzE5LTliYzktZWZjMjY2YTU1OTk5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ---
 
